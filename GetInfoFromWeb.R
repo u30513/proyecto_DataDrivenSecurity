@@ -125,7 +125,7 @@ processDisputeResolutionPanel <- function(HTMLcharacterArray,disputeResolutionDa
   return(disputeResolutionDataFrame)
 }
 
-OutputFolder <- "./Output"
+OutputFolder <- "./Data"
 separator <- "|#|";
 companyInfo <- readLines("./Links.txt")
 
