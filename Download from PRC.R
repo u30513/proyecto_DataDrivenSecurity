@@ -1,7 +1,6 @@
-# Este script se descar en CSV las brechas de seguridad reportadas en la wweb www.privacyrights.org
-# y los deja en un archi rds llamado PRTOLAL.rds dentro de la carpeta ./Data
-
-# Si no existe crear el directorio "PRdatos" para dejar archivos del proceso y
+# Este script se descarga en CSV las brechas de seguridad reportadas en la wweb www.privacyrights.org
+# y los deja en un archivo rds llamado PRTOLAL.rds dentro de la carpeta ./Data
+# Si no existe, crea el directorio "PRdatos" para dejar archivos del proceso y
 # el archivo resultado (PRTotal.Rda)
 if(!file.exists("data")){
   dir.create("data")

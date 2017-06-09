@@ -1,3 +1,4 @@
+install.packages("stringdist")
 library(stringdist)
 Inds <- readRDS("./data/industriesDataFrame.rds")
 #OtherInds <- readRDS("./data/OtherEntitiesDataFrame.rds")
