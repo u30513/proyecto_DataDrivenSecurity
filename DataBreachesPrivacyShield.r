@@ -17,6 +17,3 @@ IndsPRAmatchD2 <-  PRTotal[which(!is.na(amatch(PRTotal$Company,Inds$CompanyName,
 #IndsPRAmatchD4 <-  Inds[which(!is.na(amatch(Inds$CompanyName,PRTotal$Company,maxDist=4))),]
 saveRDS(IndsPRAmatchD2,file="./data/DataBreachesPrivacyShield.rds")
 
-
-
-
