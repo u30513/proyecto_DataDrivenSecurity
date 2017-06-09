@@ -137,7 +137,7 @@ library(httr)
 library(pracma)
 library(stringr)
 
-OutputFolder <- "./Output"
+OutputFolder <- "./Data"
 separator <- "|#|";
 companyInfo <- readLines("./Links.txt")
 
